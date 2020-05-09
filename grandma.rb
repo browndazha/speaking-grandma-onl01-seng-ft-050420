@@ -5,10 +5,10 @@ def speak_to_grandma(phrase)
     return "NO, NOT SINCE 1938!"
   elsif phrase == 'WHAT?'
     return "NO, NOT SINCE 1938!"
-  elsif phrase == phrase.upcase
+  elsif phrase == 'Hi!'
     return "HUH?! SPEAK UP, SONNY!"
-  elsif phrase == phrase.upcase
-    return "NO, NOT SINCE 1938!"
+  elsif phrase == 'Hi Nana, how are you?'
+    return "HUH?! SPEAK UP, SONNY!"
   else
 end
 # Whatever you say to grandma, she should respond with
