@@ -1,6 +1,11 @@
 def speak_to_grandma
-  puts 'speak'# Write a speak_to_grandma method.
+  puts 'phrase'# Write a speak_to_grandma method.
 end 
+
+def speak_to_grandma(phrase)
+  if phrase == 'I LOVE YOU GRANDMA! '
+    return "I LOVE YOU TOO PUMPKIN!"
+    
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
